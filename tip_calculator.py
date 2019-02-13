@@ -13,4 +13,4 @@ def tip_percent(a,b):
 
 tip_total = tip_percent(total_amount,tip_amount)
 #print("Tip total would be " + tip_percent) error: cannot concatenate str to str; error with float?
-print("Your tip would be " +"$" + str(tip_total) + ".")
+print("Your tip would be " + "$" + str(tip_total) + ".")
