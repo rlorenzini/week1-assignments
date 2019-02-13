@@ -6,5 +6,4 @@ if number % 2 == 0:
     print("EVEN")
 if number % 2 == 1:
     print("ODD")
-else:
-    print("INVALID")
+
