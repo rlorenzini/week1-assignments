@@ -40,13 +40,13 @@ def divide(no1,no2):
 if operator == "1":
     print(no1,"+", no2, "=", add(no1,no2))
 
-if operator == "2":
+elif operator == "2":
     print(no1, "-", no2, "=", subtract(no1,no2))
 
-if operator == "3":
+elif operator == "3":
     print(no1, "*", no2, "=", multiply(no1,no2))
 
-if operator == "4":
+elif operator == "4":
     print(no1, "/", no2, "=", divide(no1,no2))
 
 else:
